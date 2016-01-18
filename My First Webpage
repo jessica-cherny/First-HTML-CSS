@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>This is a title</title>
+	<link rel="stylesheet" href="css_for_jessica's_website.css"
+	/>
+
+<style>
+p {
+    border:1px solid grey;
+    padding:10px;
+    margin:30px;
+}
+</style>
+
+
+</head>
+<body style = "background-color: DDA0DD">
+	<h1 style = "font-size:320%"><b>Welcome to Jessica's Website!</b></h1>
+	<!-- <img src = " https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xlf1/v/t1.0-9/1236366_10203698151573278_5150301135316562036_n.jpg?oh=926a15c40cec4313a1f5446ae990e98b&oe=57122828 " /> -->
+	<img src = " https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpa1/t31.0-8/11722484_932528576770587_1446048197421504976_o.jpg" width = "460" height = "660"/>
+	<h2 style = "color: #CC00CC">I'm so glad you came to visit! </h2>
+	<h3><b>I am a freshman at UC Berkeley, intending to major in Computer Science </h3></b>
+	<h4 style = "color: rgb(96,0,0)"><b> Some info about me:</h4></b>
+	<p style = "font-size:120%">I want to build things that have an impact on the world. I hope to be part of a design team and absorb as many skills related to computer science as possible, from artificial intelligence to UX/UI Design.</p>
+
+	<ul style = "font-size:120%"><li>I'm interested in front end web-development</li><li>I've taken CS61A: The Structure and Interpretation of Computer Programs</li><li>I want to join a mobile web development club or take the innovative design decal</li><li>I plan on being a Girls Who Code TA this summer at Google, Facebook, Adobe, Twitter, or Square</li><li>And I plan on learning Javascript, HTML, and CSS this winter</li></ul>
+	<hr>
+
+	<p style = "font-size:160%"><b> And guess what:</b></p>
+	<p style = "font-family:courier">I'm on my way to becoming a coding badass.</p>
+	<h5><i>Nobody's</i> stopping me. I'm Leaning In.</h5>
+	<p style = "font-size:120%"><a href="https://www.linkedin.com/profile/view?id=AAMAABSdwHIBWUgTJ-AhAEaglKhc_JEqkDc337I&trk=hp-identity-name" target= "_blank">Click here to view my Linkedin!</a></p>
+
+	<p><a class="pure-button" href="https://www.facebook.com/jessica.cherny" target="_blank">Click here for Facebook</a>
+		<button class="pure-button">Click here for Facebook</button></p>
+
+	<p style = "font-size:120%"><a href="https://instagram.com/jchernzzz/" target="_blank">Click here to view my Instagram!</a></p>
+
+	<p> "The jump is so frightening<br> between where I am and where I want to be, <br> but because of all I may become  <br> I will close my eyes and leap!" </p>
+
+</body>
+</html>
+
