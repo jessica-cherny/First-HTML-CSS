@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>Learning CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+/* Set the height of the grid so that left and right col can be 100% (adjust as needed) */
+.w3-row {height: 500px}
+    
+/* Set a 100% height to left and right col */
+.w3-col.m2, w3-col.m2 {height: 100%;}
+    
+/* On small screens, set grid height to 'auto' */
+@media screen and (max-width: 601px) {
+  .w3-row {height:auto;} 
+}
+</style>
+<body>
+
+<div class="w3-topnav w3-large w3-purple">
+  <a href="#">New Arrivals</a>
+  <a href="#">Women's</a>
+  <a href="#">Men's</a>
+  <a href="#">Sale</a>
+  <a href="#">Job Application</a>
+</div>
+
+<div class="w3-center">    
+  <div class="w3-row">
+    <div class="w3-col m2 w3-light-grey">
+      <p><a href="#">Denim</a></p>
+      <p><a href="#">Outerwear</a></p>
+      <p><a href="#">Shoes</a></p>
+    </div>
+    <div class="w3-col m8 w3-container"> 
+      <h1>Welcome!</h1>
+      <p class="w3-justify">Welcome to Jessica's Closet, where you'll find the hottest trends for even hotter prices! Jessica's Closet is a brand committed to supplying its users with the most fashionable, vibrant, and affordable pieces of clothing a young women can find in San Francisco.</p>
+      <hr>
+      <h3>Browse Our Spring Lookbook!</h3>
+      <img src="FotorCreated.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+    </div>
+    <div class="w3-col m2 w3-light-grey w3-padding">
+      <div class="w3-card-2 w3-padding">
+        <p><i>Nordstrom Advertisement</i></p>
+      </div><br>
+      <div class="w3-card-2 w3-padding">
+        <p><i>Steve Madden Advertisement</i></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-container w3-purple">
+  <h5>©Jessica Cherny 2015</h5>
+  <p>Jessica's CLoset LLC</p>
+</footer>
+
+</body>
+</html> 
